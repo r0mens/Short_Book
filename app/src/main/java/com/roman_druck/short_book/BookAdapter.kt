@@ -35,7 +35,7 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-       val inflater = LayoutInflater.from(contextR)
+        val inflater = LayoutInflater.from(contextR)
         return ViewHolder(inflater.inflate(R.layout.book_item_layout, parent, false))
     }
 
@@ -48,5 +48,3 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
         return listArrayR.size
     }
 }
-
-

@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="3dp"
-            android:background="@color/blue_linght">
+            android:background="@color/green_linght">
 
 
             <TextView
@@ -53,8 +53,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Название произведения"
-                android:textColor="@color/linght_yellow"
-                android:textSize="10sp"
+                android:textColor="@color/red_linght"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tvTitle"

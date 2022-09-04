@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="autor_book">
+   <!-- <array name="autor_book">
         <item>Л.Н.Толстой</item>
         <item>А.С.Пушкин</item>
         <item>М.Ю.Лермонтов</item>
@@ -255,5 +255,56 @@
         <item>Отец Василий</item>
         <item>Алеша Горшок</item>
 
-    </array>
+    </array>-->
+    <string-array name="autor_book_classika">
+        <item>Л.Н.Толстой</item>
+        <item>А.С.Пушкин</item>
+        <item>М.Ю.Лермонтов</item>
+        <item>И.С.Тургенев</item>
+        <item>С.А.Есенин</item>
+        <item>А.П.Чехов</item>
+        <item>М.Е.Салтыков-Щедрин</item>
+        <item>В.В.Маяковский</item>
+        <item>И.А.Бунин</item>
+        <item>В.Я.Брюсов</item>
+        <item>А.А.Блок</item>
+        <item>Ф.М.Достаевский</item>
+        <item>Н.В.Гоголь</item>
+        <item>М.А.Булгаков</item>
+    </string-array>
+
+    <string-array name="name_book_classika">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+    </string-array>
+
+    <string-array name="context_book_classika">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
 </resources>
