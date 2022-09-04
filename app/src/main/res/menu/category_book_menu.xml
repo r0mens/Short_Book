@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/classika"
+            android:title="@string/classika"
+            android:icon="@drawable/classika"/>
+
+
+
+        <item android:id="@+id/military"
+            android:title="@string/Military"
+            android:icon="@drawable/military"/>
+
+        <item android:id="@+id/historical"
+            android:title="@string/historical"
+            android:icon="@drawable/historical"/>
+
+        <item android:id="@+id/detectives"
+            android:title="@string/detectives"
+            android:icon="@drawable/detectives"/>
+
+        <item android:id="@+id/fantasy"
+            android:title="@string/fantasy"
+            android:icon="@drawable/fantasy"/>
+
+        <item android:id="@+id/children"
+            android:title="@string/children"
+            android:icon="@drawable/children"/>
+
+        <item android:id="@+id/adventure"
+            android:title="@string/adventure"
+            android:icon="@drawable/adventure"/>
+
+        <item android:id="@+id/poesy"
+            android:title="@string/poesy"
+            android:icon="@drawable/poesy"/>
+
+        <item android:id="@+id/love"
+            android:title="@string/love"
+            android:icon="@drawable/love"/>
+
+    </group>
+
+
+</menu>

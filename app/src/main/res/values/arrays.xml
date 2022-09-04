@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autor_book">
+        <item>Л.Н.Толстой</item>
+        <item>А.С.Пушкин</item>
+        <item>М.Ю.Лермонтов</item>
+        <item>И.С.Тургенев</item>
+        <item>С.А.Есенин</item>
+        <item>А.П.Чехов</item>
+        <item>М.Е.Салтыков-Щедрин</item>
+        <item>В.В.Маяковский</item>
+        <item>И.А.Бунин</item>
+        <item>В.Я.Брюсов</item>
+        <item>А.А.Блок</item>
+        <item>Ф.М.Достаевский</item>
+        <item>Н.В.Гоголь</item>
+        <item>М.А.Булгаков</item>
+    </array>
+    <array name="name_book_tolstoy">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+
+    <array name="name_book_puchkin">
+        <item>Сказка о царе Салтане</item>
+        <item>Руслан и Людмила</item>
+        <item>Анчар</item>
+        <item>Арап Петра Великого</item>
+        <item>Барышня крестьянка</item>
+        <item>Выстрел</item>
+        <item>Дубровский</item>
+        <item>Капитанская дочка</item>
+        <item>Метель</item>
+        <item>Наденька</item>
+        <item>Роман в письмах</item>
+        <item>Станционный смотритель</item>
+        <item>Евгений Онегин</item>
+        <item>Пиковая дама</item>
+
+    </array>
+
+    <array name="name_book_lermontov">
+        <item>Бородино</item>
+        <item>Герой нашего времени</item>
+        <item>Демон</item>
+        <item>Мцыри</item>
+        <item>Маскарад</item>
+        <item>Смерть поэта</item>
+        <item>Кавказкий пленник</item>
+        <item>Утёс</item>
+        <item>Парус</item>
+        <item>Хаджи-Абрек</item>
+        <item>Беглец</item>
+        <item>Дума</item>
+        <item>Родина</item>
+        <item>Фаталист</item>
+
+    </array>
+    <array name="name_book_turgenev">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_esenin">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_chexov">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_chedrin">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_mayakovskiy">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_bunin">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_brysov">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_blok">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_dostoevskiy">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_gogol">
+        <item>Война и мир</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+    <array name="name_book_bulgakov">
+        <item>Мастер и маргарита</item>
+        <item>Анна Каренина</item>
+        <item>Воскресение</item>
+        <item>Декабристы</item>
+        <item>Семейное счастье</item>
+        <item>Детство Отрочество Юность</item>
+        <item>Два гусара</item>
+        <item>Утро помещика</item>
+        <item>Мать</item>
+        <item>Нигилист</item>
+        <item>Петр Хлебник</item>
+        <item>Зараженное семейство</item>
+        <item>Отец Василий</item>
+        <item>Алеша Горшок</item>
+
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_book_height">190dp</dimen>
+    <dimen name="header_image_width">185dp</dimen>
+    <dimen name="header_image_height">114dp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
+    <dimen name="book_text_size">16sp</dimen>
+    <dimen name="autor_text_size">22sp</dimen>
+    <dimen name="name_text_size">16sp</dimen>
+</resources>

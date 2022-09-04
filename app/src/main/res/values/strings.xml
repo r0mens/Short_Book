@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Short_Book</string>
+    <!-- Меню дравлер строки категории -->
+    <string name="classika">Классика</string>
+    <string name="Military">Боевики,военные</string>
+    <string name="historical">Историческая литература</string>
+    <string name="detectives">Детективы</string>
+    <string name="fantasy">Фантастика</string>
+    <string name="children">Детская литература</string>
+    <string name="adventure">Приключения</string>
+    <string name="poesy">Поэзия и драматургия</string>
+    <string name="love">Любовный роман</string>
+    <string name="splash_text">Books
+    Stories</string>
+    <!-- Меню дравлер строки классика авторы-->
+    <string name="l_n_tolstoy">Л.Н.Толстой</string>
+    <string name="puchkin">А.С.Пушкин</string>
+    <string name="lermontov">М.Ю.Лермонтов</string>
+    <string name="turgenev">И.С.Тургенев</string>
+    <string name="esenin">С.А.Есенин</string>
+    <string name="chexov">А.П.Чехов</string>
+    <string name="chedrin">М.Е.Салтыков-Щедрин</string>
+    <string name="mayakovskiy">В.В.Маяковский</string>
+    <string name="bunin">И.А.Бунин</string>
+    <string name="brysov">В.Я.Брюсов</string>
+    <string name="blok">А.А.Блок</string>
+    <string name="dostoevskiy">Ф.М.Достаевский</string>
+    <string name="gogol">Н.В.Гоголь</string>
+    <string name="bulgakov">М.А.Булгаков</string>
+    <!-- Меню дравлер строки боевики авторы -->
+    <!-- Меню дравлер строки историческая литература авторы -->
+    <!-- Меню дравлер строки детективы авторы -->
+    <!-- Меню дравлер строки фантатика авторы -->
+    <!-- Меню дравлер строки детская литература авторы -->
+    <!-- Меню дравлер строки приключения авторы -->
+    <!-- Меню дравлер строки поэзия и драматургия авторы -->
+    <!-- Меню дравлер строки любовный роман авторы -->
+
+
+
+</resources>
