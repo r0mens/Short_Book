@@ -1,6 +1,7 @@
 package com.roman_druck.short_book
 
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -46,5 +47,12 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
 
     override fun getItemCount(): Int {
         return listArrayR.size
+    }
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateAdapter(listArray: List<Book>)
+    {
+        listArrayR.clear()
+        listArrayR.addAll(listArray)
+        notifyDataSetChanged()
     }
 }

@@ -11,8 +11,10 @@ import com.roman_druck.short_book.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.book_content.*
 
 
+
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var binding: ActivityMainBinding
+    var adapter: BookAdapter? = null
 
 
 
@@ -23,18 +25,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
 
         var list = ArrayList<Book>()
-        list.add(Book("Л.Н.Толстой", "Война и мир", ""))
-        list.add(Book("А.С.Пушкин", "Руслан и Людмила", ""))
-        list.add(Book("Н.В.Гоголь", "Ревизор", ""))
-        list.add(Book("Ф.М.Достоевский", "Идиот", ""))
-        list.add(Book("А.П.Чехов", "Вишнёвый сад", ""))
-        list.add(Book("В.В.Маяковский", "Утро помещика", ""))
-        list.add(Book("М.А.Булгаков", "Мастер и Маргарита", ""))
-        list.add(Book("М.Ю.Лермонтов", "Бородино", ""))
-        list.add(Book("В.Я.Брюсов", "Войни мир", ""))
-        list.add(Book("А.А.Блок", "Вна и мир", ""))
-        list.add(Book("М.Е.Салтыков-Щедрин", "Война иир", ""))
+        list.addAll(fillArras(resources.getStringArray(R.array.autor_book_classika),
+                              resources.getStringArray(R.array.name_book_classika),
+                              resources.getStringArray(R.array.context_book_classika)))
 
+
+
+        adapter = BookAdapter(list, this)
         rcView.adapter = BookAdapter(list,this)
 
 
@@ -45,12 +42,21 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.apply {
             navView.setNavigationItemSelectedListener {
                 when (it.itemId) {
-                    R.id.classika -> Toast.makeText(this@MainActivity,
-                        "Id classika",
-                        Toast.LENGTH_SHORT).show()
-                    R.id.military -> Toast.makeText(this@MainActivity,
-                        "Id military",
-                        Toast.LENGTH_SHORT).show()
+
+                    R.id.classika ->{
+                        adapter?.updateAdapter(fillArras(resources.getStringArray(R.array.autor_book_classika),
+                            resources.getStringArray(R.array.name_book_classika),
+                            resources.getStringArray(R.array.context_book_classika)))
+                        Toast.makeText(this@MainActivity, "Id classika", Toast.LENGTH_SHORT).show()
+
+                    }
+                    R.id.military -> {
+                        adapter?.updateAdapter(fillArras(resources.getStringArray(R.array.autor_book_militari),
+                            resources.getStringArray(R.array.name_book_militari),
+                            resources.getStringArray(R.array.context_book_militari)))
+
+                        Toast.makeText(this@MainActivity, "Id military", Toast.LENGTH_SHORT).show()
+                    }
                     R.id.historical -> Toast.makeText(this@MainActivity,
                         "Id historical",
                         Toast.LENGTH_SHORT)
@@ -87,5 +93,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return true
+    }
+    fun fillArras(titleArray:Array<String>, nameArray:Array<String>, contentArray:Array<String>):List<Book>
+    {
+        var listItemArray = ArrayList<Book>()
+          for (n in 0..titleArray.size -1)
+          {
+              var listItem = Book(titleArray[n], nameArray[n], contentArray[n])
+              listItemArray.add(listItem)
+          }
+        return listItemArray
+
     }
 }
