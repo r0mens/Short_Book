@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Short_Book/app/src/main/res/layout/activity_main.xml" value="0.15364583333333334" />
+        <entry key="..\:/Short_Book/app/src/main/res/layout/book_content.xml" value="0.15364583333333334" />
+        <entry key="..\:/Short_Book/app/src/main/res/layout/book_item_layout.xml" value="0.15364583333333334" />
+        <entry key="..\:/Short_Book/app/src/main/res/layout/description_book.xml" value="0.15260416666666668" />
+        <entry key="..\:/Short_Book/app/src/main/res/layout/fragment_book_description.xml" value="0.15364583333333334" />
+        <entry key="..\:/Short_Book/app/src/main/res/layout/header_book_menu.xml" value="0.15364583333333334" />
         <entry key="..\:/Users/User/Short_Book2/app/src/main/res/drawable/heart_beat_anim.xml" value="0.1615" />
         <entry key="..\:/Users/User/Short_Book2/app/src/main/res/drawable/short_book_logo_foreground.xml" value="0.1615" />
         <entry key="..\:/Users/User/Short_Book2/app/src/main/res/drawable/splash_background.xml" value="0.1615" />

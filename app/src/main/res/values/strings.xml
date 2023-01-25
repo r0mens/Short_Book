@@ -27,6 +27,8 @@
     <string name="dostoevskiy">Ф.М.Достаевский</string>
     <string name="gogol">Н.В.Гоголь</string>
     <string name="bulgakov">М.А.Булгаков</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- Меню дравлер строки боевики авторы -->
     <!-- Меню дравлер строки историческая литература авторы -->
     <!-- Меню дравлер строки детективы авторы -->
@@ -35,7 +37,6 @@
     <!-- Меню дравлер строки приключения авторы -->
     <!-- Меню дравлер строки поэзия и драматургия авторы -->
     <!-- Меню дравлер строки любовный роман авторы -->
-
 
 
 </resources>

@@ -2,6 +2,8 @@
 <resources>
     <string-array name="autor_book_classika">
         <item>Л.Н.Толстой</item>
+        <item>Л.Н.Толстой</item>
+        <item>Л.Н.Толстой</item>
         <item>А.С.Пушкин</item>
         <item>М.Ю.Лермонтов</item>
         <item>И.С.Тургенев</item>
@@ -18,6 +20,8 @@
     </string-array>
 
     <string-array name="name_book_classika">
+        <item>Война и мир</item>
+        <item>Война и мир</item>
         <item>Война и мир</item>
         <item>Анна Каренина</item>
         <item>Воскресение</item>
@@ -36,6 +40,8 @@
 
     <string-array name="context_book_classika">
         <item> fgsg</item>
+        <item> fgsg</item>
+        <item> fgsg</item>
         <item> fxxf</item>
         <item>xxxx </item>
         <item>xxv x</item>
@@ -51,11 +57,11 @@
         <item> cg</item>
     </string-array>
     <string-array name="autor_book_militari">
-        <item>Симонов</item>
-        <item>Полевой</item>
-        <item>Дюма</item>
-        <item>Ломоносов</item>
-        <item>Пастернак</item>
+        <item>Цветаева</item>
+        <item>Цветаева</item>
+        <item>Цветаева</item>
+        <item>Цветаева</item>
+        <item>Цветаева</item>
         <item>Цветаева</item>
         <item>Цветаева</item>
         <item>Цветаева</item>

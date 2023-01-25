@@ -22,4 +22,11 @@
         app:headerLayout="@layout/header_book_menu"
         app:menu="@menu/category_book_menu"
         tools:ignore="InvalidId" />
+
+    <FrameLayout
+        android:id="@+id/placeHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

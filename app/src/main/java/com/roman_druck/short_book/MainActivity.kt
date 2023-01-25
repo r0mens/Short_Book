@@ -12,9 +12,9 @@ import kotlinx.android.synthetic.main.book_content.*
 
 
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
-    lateinit var binding: ActivityMainBinding
-    var adapter: BookAdapter? = null
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, BookAdapter.Listener {
+    private lateinit var binding: ActivityMainBinding
+    private var adapter: BookAdapter? = null
 
 
 
@@ -24,15 +24,27 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(binding.root)
 
 
-        var list = ArrayList<Book>()
+        val list = ArrayList<Book>()
         list.addAll(fillArras(resources.getStringArray(R.array.autor_book_classika),
                               resources.getStringArray(R.array.name_book_classika),
                               resources.getStringArray(R.array.context_book_classika)))
 
 
+        val listener = object : BookAdapter.Listener {
+            override fun onClickItem(listItem: Book) {
+                // здесь открыть фрагмент
+                //FragmentManager.currentFrag?.onClickNew()
+                FragmentManager.setFragment(BookDescriptionFragment.newInstance(), this@MainActivity)
 
-        adapter = BookAdapter(list, this)
-        rcView.adapter = BookAdapter(list,this)
+
+
+
+            }
+        }
+        adapter = BookAdapter(list, this, listener = listener)
+        rcView.adapter = BookAdapter(list,this, listener = listener)
+
+
 
 
 
@@ -94,15 +106,23 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return true
     }
-    fun fillArras(titleArray:Array<String>, nameArray:Array<String>, contentArray:Array<String>):List<Book>
+    private fun fillArras(titleArray:Array<String>, nameArray:Array<String>, contentArray:Array<String>):List<Book>
     {
-        var listItemArray = ArrayList<Book>()
-          for (n in 0..titleArray.size -1)
+        val listItemArray = ArrayList<Book>()
+          for (n in titleArray.indices)
           {
-              var listItem = Book(titleArray[n], nameArray[n], contentArray[n])
+              val listItem = Book(titleArray[n], nameArray[n], contentArray[n])
               listItemArray.add(listItem)
           }
         return listItemArray
 
+    }
+
+    override fun onClickItem(listItem: Book) {
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.placeHolder, BookDescriptionFragment.newInstance())
+        fragmentTransaction.addToBackStack(null)
+        fragmentTransaction.commit()
     }
 }
