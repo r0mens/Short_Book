@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="3dp"
-            android:background="@color/green_linght">
+            android:background="@color/gray_red">
 
 
             <TextView
@@ -35,11 +35,11 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
+                android:autoSizeTextType="uniform"
                 android:fontFamily="sans-serif-black"
                 android:gravity="center"
                 android:text="Автор"
                 android:textColor="@color/black"
-                android:autoSizeTextType="uniform"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -71,10 +71,14 @@
         <item>Цветаева</item>
         <item>Цветаева</item>
         <item>Цветаева</item>
+        <item>Цветаева</item>
+        <item>Цветаева</item>
     </string-array>
     <string-array name="name_book_militari">
         <item>Сиhff</item>
         <item>Поvcfвой</item>
+        <item>Дzsfgма</item>
+        <item>Дzsfgма</item>
         <item>Дzsfgма</item>
         <item>Дzsfgма</item>
         <item>Дzsfgма</item>
@@ -91,6 +95,8 @@
     <string-array name="context_book_militari">
         <item>Сиff</item>
         <item>Пfвой</item>
+        <item>Дsfgма</item>
+        <item>Дsfgма</item>
         <item>Дsfgма</item>
         <item>Дsfgма</item>
         <item>Дsfgма</item>
