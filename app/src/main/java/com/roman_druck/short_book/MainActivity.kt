@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.book_content.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
     private lateinit var binding: ActivityMainBinding
-    private var adapter: BookAdapter? = null
+    private  var adapter: BookAdapter? = null
 
 
 
@@ -29,10 +29,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                               resources.getStringArray(R.array.name_book_classika),
                               resources.getStringArray(R.array.context_book_classika)))
 
+        val listener = object : BookAdapter.Listener {
+            override fun onClickItem(listItem: Book) {
+
+            }
+        }
+        //val adapter = BookAdapter(list, this, listener)
+        //rcView.adapter = adapter
 
 
-        adapter = BookAdapter(list,this)
-        rcView.adapter = BookAdapter(list,this)
+        adapter = BookAdapter(list,this, listener = listener)
+        rcView.adapter = BookAdapter(list,this, listener = listener)
 
 
         binding.apply {

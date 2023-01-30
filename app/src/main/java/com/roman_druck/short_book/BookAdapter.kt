@@ -11,7 +11,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 
-class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.Adapter<BookAdapter.ViewHolder>() {
+class BookAdapter (listArray: ArrayList<Book>, context: Context, val listener: Listener): RecyclerView.Adapter<BookAdapter.ViewHolder>() {
     var listArrayR = listArray
     var contextR = context
 
@@ -22,12 +22,12 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
         val tvContext = view.findViewById<TextView>(R.id.short_tV)
 
 
-        fun bind(listItem: Book, context: Context){
+        fun bind(listItem: Book, context: Context,listener: Listener){
             tvAutor.text = listItem.autor
             tvName.text = listItem.name_book
             tvContext.text = listItem.contentText
             itemView.setOnClickListener{
-                //listener.onClickItem(listItem)
+                listener.onClickItem(listItem)
                 Toast.makeText(context, "Нажали ${tvAutor.text}", Toast.LENGTH_SHORT).show()
 
             }
@@ -43,7 +43,7 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val listItem = listArrayR[position]
-        holder.bind(listItem, contextR)
+        holder.bind(listItem, contextR, listener)
     }
 
     override fun getItemCount(): Int {
@@ -74,6 +74,10 @@ class BookAdapter (listArray: ArrayList<Book>, context: Context): RecyclerView.A
         listArrayR.clear()
         listArrayR.addAll(newList)
         diffResult.dispatchUpdatesTo(this)
+    }
+    interface Listener{
+        fun onClickItem(listItem: Book)
+
     }
 
 }
